@@ -1,0 +1,15 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+pubmedpy = {git = "https://github.com/dhimmel/pubmedpy.git",ref = "91024067f530f68886d3fbc14b6647afbc19941e"}
+notebook = "*"
+ipywidgets = "*"
+jupyter = "*"
+
+[requires]
+python_version = "3.8"
